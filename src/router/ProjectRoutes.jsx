@@ -2,7 +2,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  NavLink,
+  Navigate,
 } from 'react-router-dom';
 import Contacto from '../components/Contacto';
 import Curriculo from '../components/Curriculo';
@@ -20,7 +20,7 @@ const ProjectRoutes = () => {
       {/*Contenido central*/}
       <section className="content">
         <Routes>
-          <Route path="/" element={<Inicio />} />
+          <Route path="/" element={<Navigate to="/inicio" />} />
           <Route path="/inicio" element={<Inicio />} />
           <Route path="/portafolio" element={<Portafolio />} />
           <Route path="/servicios" element={<Servicios />} />

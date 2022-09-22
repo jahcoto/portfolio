@@ -1,5 +1,9 @@
 const Portafolio = () => {
-  return <h1>Portafolio</h1>;
+  return (
+    <div className="page">
+      <h1>Portafolio</h1>
+    </div>
+  );
 };
 
 export default Portafolio;

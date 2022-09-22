@@ -1,7 +1,12 @@
 const Curriculo = () => {
-    return ( 
-        <h1>Curriculo</h1>
-     );
-}
- 
+  return (
+    <div className="page">
+      <h1>Curriculo</h1>
+      <h2>Experiencia</h2>
+      <h2>Conocimientos</h2>
+      <h2>Educación</h2>
+    </div>
+  );
+};
+
 export default Curriculo;

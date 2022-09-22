@@ -1,5 +1,8 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 const HeaderNav = () => {
+  const location = useLocation();
+  const urlActual = location.pathname;
+
   return (
     <header className="header">
       <div className="logo">
@@ -11,26 +14,43 @@ const HeaderNav = () => {
         <ul>
           <li>
             <NavLink
+              className={`${urlActual === '/inicio' ? 'active' : ''}`}
               to="/inicio"
-              className={({ isActive }) => {
-                console.log(isActive);
-                isActive ? 'active' : '';
-              }}
             >
               Inicio
             </NavLink>
           </li>
           <li>
-            <NavLink to="/portafolio">Portafolio</NavLink>
+            <NavLink
+              className={`${urlActual === '/portafolio' ? 'active' : ''}`}
+              to="/portafolio"
+            >
+              Portafolio
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/servicios">Servicios</NavLink>
+            <NavLink
+              className={`${urlActual === '/servicios' ? 'active' : ''}`}
+              to="/servicios"
+            >
+              Servicios
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/curriculo">Curriculo</NavLink>
+            <NavLink
+              className={`${urlActual === '/curriculo' ? 'active' : ''}`}
+              to="/curriculo"
+            >
+              Curriculo
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/contacto">Contacto</NavLink>
+            <NavLink
+              className={`${urlActual === '/contacto' ? 'active' : ''}`}
+              to="/contacto"
+            >
+              Contacto
+            </NavLink>
           </li>
         </ul>
       </nav>
