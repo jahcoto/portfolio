@@ -10,7 +10,15 @@ const HeaderNav = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to="/">Inicio</NavLink>
+            <NavLink
+              to="/inicio"
+              className={({ isActive }) => {
+                console.log(isActive);
+                isActive ? 'active' : '';
+              }}
+            >
+              Inicio
+            </NavLink>
           </li>
           <li>
             <NavLink to="/portafolio">Portafolio</NavLink>
