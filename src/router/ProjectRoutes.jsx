@@ -11,6 +11,7 @@ import Inicio from '../components/Inicio.jsx';
 import Portafolio from '../components/Portafolio';
 import HeaderNav from '../components/layout/HeaderNav';
 import Footer from '../components/layout/Footer';
+import Error404 from '../components/Error404';
 
 const ProjectRoutes = () => {
   return (
@@ -26,6 +27,7 @@ const ProjectRoutes = () => {
           <Route path="/servicios" element={<Servicios />} />
           <Route path="/curriculo" element={<Curriculo />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="*" element={<Error404 />} />
         </Routes>
       </section>
 
