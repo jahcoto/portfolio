@@ -12,7 +12,7 @@ const Portafolio = () => {
             <>
               <article key={trabajo.id} className="work-item">
                 <div className="mask">
-                  <img src={`/public/images/${trabajo.id}.png`} alt="" />
+                  <img src={`./images/${trabajo.id}.PNG`} alt="" />
                 </div>
                 <span>{trabajo.Category}</span>
                 <h2>
