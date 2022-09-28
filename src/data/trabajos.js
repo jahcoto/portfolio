@@ -2,7 +2,8 @@ export const trabajos = [
   {
     'id': 'weather-app1',
     'name': 'weather-app1',
-    'url': 'https://weather-app-chi-ivory-45.vercel.app',
+    'url': 'weather-app1',
+    'external_url': 'https://weather-app-chi-ivory-45.vercel.app',
     'technologies': 'Reactjs, CSS',
     'Category': 'ReactJS-APP',
     'description':
@@ -11,7 +12,8 @@ export const trabajos = [
   {
     'id': 'weather-app2',
     'name': 'weather-app2',
-    'url': 'https://weather-app-chi-ivory-45.vercel.app',
+    'url': 'weather-app2',
+    'external_url': 'https://weather-app-chi-ivory-45.vercel.app',
     'technologies': 'Reactjs, CSS',
     'Category': 'ReactJS-APP',
     'description':
@@ -19,8 +21,9 @@ export const trabajos = [
   },
   {
     'id': 'weather-app3',
-    'name': 'weather-app2',
-    'url': 'https://weather-app-chi-ivory-45.vercel.app',
+    'name': 'weather-app3',
+    'url': 'weather-app3',
+    'external_url': 'https://weather-app-chi-ivory-45.vercel.app',
     'technologies': 'Reactjs, CSS',
     'Category': 'ReactJS-APP',
     'description':
