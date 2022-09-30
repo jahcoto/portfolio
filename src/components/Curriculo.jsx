@@ -16,8 +16,6 @@ const Curriculo = () => {
                 <h4>Cartago</h4>
                 <p>Provincia</p>
               </div>
-            </div>
-            <div className="second">
               <div className="canton">
                 <h4>Cartago</h4>
                 <p>Canton</p>
@@ -27,13 +25,29 @@ const Curriculo = () => {
                 <p>Distrito</p>
               </div>
             </div>
-
-            <div className="direccion">
-              <h4>
-                Del Super la Violetera, 300 metros oeste y 75 metros sur, casa
-                color lila a mano izquierda.
-              </h4>
-              <p>Direccion</p>
+            <div className="second">
+              <div className="direccion">
+                <h4>
+                  Del Super la Violetera, 300 metros oeste y 75 metros sur, casa
+                  color lila a mano izquierda.
+                </h4>
+                <p>Direccion</p>
+              </div>
+            </div>
+            <h3 className="subtitle">Otros datos:</h3>
+            <div className="otros-datos">
+              <div className="identificacion">
+                <h4>3-0394-0911</h4>
+                <p>Cedula</p>
+              </div>
+              <div className="telefono">
+                <h4>+506 8503-7325</h4>
+                <p>#Celular</p>
+              </div>
+              <div className="email">
+                <h4>jahcoto@gmail.com</h4>
+                <p>e-mail</p>
+              </div>
             </div>
           </div>
         </div>
