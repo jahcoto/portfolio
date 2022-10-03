@@ -3,6 +3,26 @@ body {
   background-color: #f0fbff;
 }
 
+.container {
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  background-color: #fff;
+  margin: 15px 15px;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.title-text {
+  background-color: #64c4ed;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 50px;
+  margin: 15px 0 30px 0;
+}
+
 .layout {
   width: 85%;
   margin: 0 auto;
@@ -257,7 +277,7 @@ label {
   border-radius: 5px;
   background-color: #fff;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -268,82 +288,4 @@ label {
   font-size: 50px;
   width: 100%;
   background-color: #e3e3e3;
-}
-
-.curriculo .personal-info {
-  width: 90%;
-  text-align: center;
-}
-
-.curriculo .personal-info .residencia {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.subtitle {
-  color: #64c4ed;
-  width: 100%;
-  display: block;
-}
-
-.first {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 800px;
-}
-
-.first .pais,
-.provincia,
-.canton,
-.distrito {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-h4 {
-  margin-bottom: 0;
-}
-
-p {
-  width: 175px;
-  border-top: 1px solid #000;
-  margin-top: 0;
-}
-.second {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 800px;
-}
-
-.second .direccion {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.direccion h4 {
-  width: 775px;
-  margin-bottom: 0;
-}
-
-.direccion p {
-  width: 775px;
-  border-top: 1px solid #000;
-  margin-top: 0;
-}
-
-.otros-datos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 800px;
 }
