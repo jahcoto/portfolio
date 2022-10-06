@@ -1,0 +1,99 @@
+.experiencia {
+  max-width: 800px;
+  width: 100%;
+}
+
+.experiencia-item {
+  max-width: 800px;
+  width: 100%;
+
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.encabezado {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.detalle {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+.puesto {
+  text-align: start;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.puesto p {
+  width: 25%;
+  border-top: 0;
+}
+
+.puesto span {
+  width: 75%;
+  text-align: start;
+}
+
+.tiempo {
+  text-align: start;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tiempo p {
+  width: 25%;
+  border-top: 0;
+}
+
+.tiempo span {
+  width: 75%;
+  text-align: start;
+}
+
+.telefono {
+  text-align: start;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.telefono p {
+  width: 25%;
+  border-top: 0;
+}
+
+.telefono span {
+  width: 75%;
+  text-align: start;
+}
+
+.funciones {
+  text-align: start;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.funciones p {
+  width: 25%;
+  border-top: 0;
+}
+
+.funciones div {
+  width: 75%;
+  text-align: start;
+}
+
+.funciones div ul li {
+  text-align: start;
+}

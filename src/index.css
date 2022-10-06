@@ -13,9 +13,14 @@ body {
   border: 1px solid #000;
   border-radius: 10px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title-text {
+  width: 100%;
   background-color: #64c4ed;
   color: #fff;
   font-weight: 400;
