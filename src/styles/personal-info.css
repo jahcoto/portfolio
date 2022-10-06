@@ -7,12 +7,26 @@
   margin: 20px 0 20px 0;
 }
 
-.personal-info .residencia {
+.residencia {
+  max-width: 800px;
+  width: 100%;
+  margin-top: 20px;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+}
+
+.encabezado {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.detalle {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
 }
 
 .subtitle {
@@ -22,60 +36,186 @@
 }
 
 .first {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 800px;
-}
-
-.first .pais,
-.provincia,
-.canton,
-.distrito {
+  width: 85%;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
-h4 {
-  margin-bottom: 0;
-}
-
-p {
-  width: 175px;
-  border-top: 1px solid #000;
-  margin-top: 0;
-}
-.second {
+.first-top {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  width: 800px;
 }
 
-.second .direccion {
+.pais {
+  text-align: start;
+  width: 50%;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.pais p {
+  width: 25%;
+  border-top: 0;
+}
+
+.pais h4 {
+  width: 75%;
+  text-align: start;
+  margin: auto 0;
+}
+
+.provincia {
+  text-align: start;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.provincia p {
+  width: 25%;
+  border-top: 0;
+}
+
+.provincia h4 {
+  width: 75%;
+  text-align: start;
+  margin: auto 0;
+}
+
+.first-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-.direccion h4 {
-  width: 775px;
-  margin-bottom: 0;
+.canton {
+  text-align: start;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.canton p {
+  width: 25%;
+  border-top: 0;
+}
+
+.canton h4 {
+  width: 75%;
+  text-align: start;
+  margin: auto 0;
+}
+
+.distrito {
+  text-align: start;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.distrito p {
+  width: 25%;
+  border-top: 0;
+}
+
+.distrito h4 {
+  width: 75%;
+  text-align: start;
+  margin: auto 0;
+}
+
+.second {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+.direccion {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .direccion p {
-  width: 775px;
-  border-top: 1px solid #000;
-  margin-top: 0;
+  width: 20%;
+  border-top: 0;
+  text-align: start;
+}
+
+.direccion h4 {
+  width: 80%;
+  text-align: start;
+  margin: auto 0;
 }
 
 .otros-datos {
+  width: 85%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  width: 800px;
+}
+
+.identificacion {
+  text-align: start;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.identificacion p {
+  width: 30%;
+  border-top: 0;
+  text-align: start;
+}
+
+.identificacion h4 {
+  width: 70%;
+  text-align: start;
+  margin: auto 0;
+}
+
+.telefono {
+  text-align: start;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.telefono p {
+  width: 35%;
+  border-top: 0;
+  text-align: start;
+}
+
+.telefono h4 {
+  width: 65%;
+  text-align: start;
+  margin: auto 0;
+}
+
+.email {
+  text-align: start;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.email p {
+  width: 30%;
+  border-top: 0;
+  text-align: start;
+}
+
+.email h4 {
+  width: 70%;
+  text-align: start;
+  margin: auto 0;
 }
