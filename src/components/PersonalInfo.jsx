@@ -42,7 +42,6 @@ const PersonalInfo = () => {
         <div className="encabezado">
           <h3>Otros datos:</h3>
         </div>
-
         <div className="otros-datos">
           <div className="identificacion">
             <p>Cedula:</p>
