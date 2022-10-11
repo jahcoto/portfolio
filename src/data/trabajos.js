@@ -13,8 +13,7 @@ export const trabajos = [
     'id': 'password-generator-app',
     'name': 'password-generator-app',
     'url': 'password-generator-app',
-    'external_url':
-      'https://jahcoto-password-generator-apppassword-generator-app.vercel.app',
+    'external_url': 'https://jahcoto-password-generator-app.vercel.app',
     'technologies': 'Reactjs, CSS',
     'Category': 'ReactJS-APP',
     'description':

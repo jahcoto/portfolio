@@ -15,3 +15,25 @@
   border-radius: 10px;
   text-align: center;
 }
+
+li {
+  text-decoration-style: none;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.item {
+  padding: 0 2px;
+}
+
+i {
+  font-size: 50px;
+  color: #999;
+}
