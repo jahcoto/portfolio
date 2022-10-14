@@ -16,7 +16,7 @@ const Servicios = () => {
             tanto del lado del servidor como en la interfaz gráfica. Entre las
             tecnologías mas usadas estan:
             <ul>
-              <li>Servidor (BackEnd)</li>
+              <li className="sub-section">Servidor (BackEnd)</li>
               <div className="items">
                 <div className="item">
                   <p>NodeJS</p>
@@ -32,7 +32,7 @@ const Servicios = () => {
                 </div>
               </div>
 
-              <li>Diseño de la interfaz gráfica</li>
+              <li className="sub-section">Diseño de la interfaz gráfica</li>
               <div className="items">
                 <div className="item">
                   <p>React JS</p>
@@ -64,13 +64,12 @@ const Servicios = () => {
                 </div>
               </div>
 
-              <li>Motores de BD</li>
+              <li className="sub-section">Base de Datos</li>
               <div className="items">
                 <div className="item">
                   <p>MongoDB</p>
                   <i className="bx bxl-mongodb"></i>
                 </div>
-                <p>MySQL, SQL Lite, SQL Server</p>
               </div>
             </ul>
           </p>

@@ -1,11 +1,11 @@
 .services {
   width: 800px;
-  height: 100vh;
+  height: 650px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: start;
-  gap: 50px;
+  gap: 40px;
 }
 
 .service {
@@ -16,13 +16,18 @@
   text-align: center;
 }
 
-li {
-  text-decoration-style: none;
+.service ul {
+  list-style-type: none;
+}
+
+.sub-section {
+  text-align: center;
 }
 
 .items {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 5px;
@@ -36,4 +41,43 @@ li {
 i {
   font-size: 50px;
   color: #999;
+}
+
+p {
+  text-align: justify;
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .service {
+    width: 80%;
+    height: 100%;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0 0 200px;
+  }
+  .service {
+    width: 50%;
+    height: 100%;
+  }
+
+  .heading {
+    font-size: 20px;
+    margin-left: 200px;
+  }
 }
