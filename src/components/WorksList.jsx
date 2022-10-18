@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { trabajos } from '../data/trabajos';
 
+import '../styles/work-list.css';
+
 const WorksList = ({ limit }) => {
   return (
     <section className="works">

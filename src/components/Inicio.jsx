@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import WorksList from './WorksList';
 
+import '../styles/inicio.css';
+
 const Inicio = () => {
   return (
     <div className="home">
@@ -17,8 +19,9 @@ const Inicio = () => {
       </h1>
       <section className="last-works">
         <h2 className="heading">Algunos de mis proyectos</h2>
-        <div className="works"></div>
-        <WorksList limit="3" />
+        <div className="works">
+          <WorksList limit="3" />
+        </div>
       </section>
     </div>
   );

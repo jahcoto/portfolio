@@ -1,0 +1,49 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.form-input {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 500px;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.submit {
+  background-color: #64c4ed;
+  border: 2px solid #005792;
+  color: #fff;
+  width: 100%;
+  margin-top: 20px;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit:hover {
+  background-color: #005792;
+  color: #fff;
+  border: 2px solid #64c4ed;
+}
+
+@media screen and (max-width: 480px) {
+  .heading {
+    margin-right: 190px;
+  }
+
+  .form-input {
+    width: 400px;
+  }
+}

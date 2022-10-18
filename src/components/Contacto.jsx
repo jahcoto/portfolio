@@ -1,7 +1,9 @@
+import '../styles/contacto.css';
+
 const Contacto = () => {
   return (
     <div className="page">
-      <h1 className="heading">Contacto</h1>.
+      <h1 className="heading">Contacto</h1>
       <div className="contact">
         <form className="contact-form" action="mailto:jahcoto@gmail.com">
           <label htmlFor="nombre">Nombre:</label>
