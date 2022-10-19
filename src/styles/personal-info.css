@@ -219,3 +219,39 @@
   text-align: start;
   margin: auto 0;
 }
+
+@media screen and (max-width: 480px) {
+  .first-top,
+  .first-bottom {
+    flex-direction: column;
+  }
+
+  .pais,
+  .provincia,
+  .canton,
+  .distrito {
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .direccion {
+    width: 110%;
+    text-align: center;
+
+    justify-content: space-around;
+  }
+
+  .direccion h4 {
+    text-align: justify;
+  }
+
+  .otros-datos {
+    flex-direction: column;
+  }
+
+  .telefono h4 {
+    width: 70%;
+  }
+}

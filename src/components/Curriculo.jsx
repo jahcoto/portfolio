@@ -3,6 +3,8 @@ import PersonalInfo from './PersonalInfo';
 import Experiencia from './Experiencia';
 import Educacion from './Educacion';
 
+import '../styles/curriculo.css';
+
 const Curriculo = () => {
   return (
     <div className="page">
