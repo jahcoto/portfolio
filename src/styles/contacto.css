@@ -38,6 +38,33 @@ label {
   border: 2px solid #64c4ed;
 }
 
+.message {
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.message a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #005792;
+  font-weight: 800;
+}
+.message a:hover {
+  color: #64c4ed;
+}
+
+i {
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 480px) {
   .heading {
     margin-right: 190px;
