@@ -61,7 +61,9 @@ label {
   color: #64c4ed;
 }
 
-i {
+.whatsapp {
+  font-size: 50px;
+  color: green;
   margin-bottom: 10px;
 }
 

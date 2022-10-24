@@ -81,7 +81,7 @@ const Contacto = () => {
             className="contact-button"
             target="_blank"
           >
-            <i className="bx bxl-whatsapp"></i>
+            <i className="bx bxl-whatsapp whatsapp"></i>
             <span className="contact-card-data">(506) 8506-7325</span>
           </a>
         </div>

@@ -6,12 +6,9 @@ const Servicios = () => {
       <h1 className="heading">Servicios</h1>
       <section className="services">
         <article className="service">
-          <h2>Diseño Web</h2>
-          <p>Te ayudamos a diseñar, mantener y crear tu sitio y página web.</p>
-        </article>
-        <article className="service">
-          <h2>Desarrollo Web</h2>
-          <p>
+          <h2>Diseño y Desarrollo Web</h2>
+          <p className="introducion">
+            Te ayudamos a diseñar, mantener y crear tu sitio y página web.
             Desarrollamos páginas web con las ultimas tecnologías de software
             tanto del lado del servidor como en la interfaz gráfica. Entre las
             tecnologías mas usadas estan:
