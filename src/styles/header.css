@@ -73,14 +73,66 @@
   }
 }
 
-/* For small devices */
-@media screen and (max-width: 480px) {
+/* For medium devices */
+@media screen and (max-width: 768px) {
   .layout {
-    width: 480px;
+    width: 768px;
   }
 
   .header {
-    max-width: 480px;
+    max-width: 768px;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .logo span {
+    display: block;
+    font-size: 90px;
+    font-weight: 500;
+    color: #005792;
+    margin-top: 0;
+  }
+
+  .logo h3 {
+    display: block;
+    flex-basis: 40px;
+    font-weight: lighter;
+    margin-left: 10px;
+    color: #fff;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #64c4ed;
+    position: relative;
+  }
+
+  .topnav ul {
+    justify-content: center;
+  }
+
+  li {
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0 5px 0 5px;
+  }
+
+  .topnav .myLinks {
+    display: flex;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 500px) {
+  .layout {
+    width: 500px;
+  }
+
+  .header {
+    max-width: 500px;
     width: 100%;
     margin: auto;
     height: 100%;
