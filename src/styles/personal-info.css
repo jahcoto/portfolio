@@ -220,6 +220,80 @@
   margin: auto 0;
 }
 
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .first-top .provincia p {
+    width: 40%;
+    margin-right: 5px;
+  }
+  .first-top .provincia h4 {
+    width: 55%;
+  }
+
+  .first-bottom .canton p {
+    width: 40%;
+  }
+  .first-bottom .canton h4 {
+    width: 55%;
+  }
+
+  .first-bottom .distrito p {
+    width: 40%;
+    margin-right: 5px;
+  }
+  .first-bottom .distrito h4 {
+    width: 55%;
+  }
+
+  .second .direccion p {
+    width: 25%;
+    text-align: justify;
+  }
+
+  .second .direccion h4 {
+    width: 75%;
+    text-align: justify;
+  }
+
+  .identificacion,
+  .telefono,
+  .email {
+    flex-direction: column;
+    margin: 0 2px 0 1px;
+  }
+
+  .identificacion p {
+    width: 85px;
+    text-align: center;
+    margin: 0 0;
+  }
+
+  .identificacion h4 {
+    width: 85px;
+  }
+
+  .telefono p {
+    width: 110px !important;
+    text-align: center;
+    margin: 0 0;
+  }
+
+  .telefono h4 {
+    width: 110px;
+  }
+
+  .email p {
+    width: 95px;
+    text-align: center;
+    margin: 0 0;
+  }
+
+  .detalle .telefono {
+    flex-direction: row;
+  }
+}
+
+/* For small devices */
 @media screen and (max-width: 480px) {
   .first-top,
   .first-bottom {
