@@ -1,3 +1,7 @@
+:root {
+  --small-maxwidth: 480px;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -81,9 +85,7 @@ label {
   }
 
   .form-input {
-    width: 380px;
-  }
-
-  .message {
+    --maxwidth: 480px;
+    width: calc(var(--maxwidth) - 100px);
   }
 }
