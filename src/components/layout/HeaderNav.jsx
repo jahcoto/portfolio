@@ -69,9 +69,12 @@ const HeaderNav = () => {
             </li>
           </ul>
         </div>
-        <a href="#" className="icon" onClick={handleClick}>
+        <button className="icon" onClick={handleClick}>
           <i className="fa fa-bars"></i>
-        </a>
+        </button>
+        <button class="icon">
+          <i class="fas fa-times"></i>
+        </button>
       </div>
     </header>
   );
